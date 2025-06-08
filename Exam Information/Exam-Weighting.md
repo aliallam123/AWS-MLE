@@ -1,3 +1,5 @@
+# 🎯 AWS MLE Exam Domains + Weighting
+
 | Domain # | Exam Area                                             | Weighting |
 | -------- | ----------------------------------------------------- | --------- |
 | 1        | **Data Preparation for ML**                           | **28%**   |
