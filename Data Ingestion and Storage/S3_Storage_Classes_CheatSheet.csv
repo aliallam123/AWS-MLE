@@ -1,0 +1,8 @@
+Storage Class,🔍 What It Means,💸 Cost,🕒 Retrieval Time
+S3 Standard,For stuff you access a lot (default),💰 High,⚡ Instant
+S3 Standard-IA,"For data you access rarely, but still need quickly",💸 Lower,⚡ Instant
+S3 One Zone-IA,Like IA but stored in just one AZ (risk of data loss),💸💸 Even lower,⚡ Instant
+S3 Glacier Instant Retrieval,"Cold storage, but you can get it right away",🔽 Cheap,⚡ Instant
+S3 Glacier Flexible Retrieval,Cold storage where you're OK waiting a bit,🔽🔽 Cheaper,🕐 Minutes to hours
+S3 Glacier Deep Archive,Deepest freeze – for long-term archiving,🧊 Cheapest,🕒 12 to 48 hours
+S3 Intelligent-Tiering,S3 auto-moves your data between classes based on usage,🧠 Smart,⚡ Instant (mostly)
