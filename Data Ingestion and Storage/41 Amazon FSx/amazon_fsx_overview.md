@@ -37,4 +37,4 @@ Amazon FSx is a **fully managed file storage service** that lets you launch and 
 
 Amazon FSx is a managed file system service that supports four types: Lustre (fast ML training, links with S3), Windows File Server (for Windows apps), NetApp ONTAP (enterprise features like snapshots), and OpenZFS (Linux/Unix workloads).
 
-
+For the exam, know that FSx is used to store and access training data in SageMaker pipelines, offers high performance and POSIX compliance (varies by type), and you should be able to choose the right FSx type over S3, EBS, or EFS based on workload needs.
