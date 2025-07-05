@@ -1,0 +1,6 @@
+| Component         | What It Does                                                                    |
+| ----------------- | ------------------------------------------------------------------------------- |
+| **HDFS**          | Distributed file system (splits files across cluster with redundancy)           |
+| **YARN**          | Manages resources in the cluster (stands for *Yet Another Resource Negotiator*) |
+| **MapReduce**     | Framework for processing data in parallel using `Map()` and `Reduce()` steps    |
+| **Hadoop Common** | Shared utilities & libraries (the foundation layer)                             |
