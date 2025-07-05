@@ -1,3 +1,6 @@
+💡 1. What is Hadoop?
+🧱 Hadoop = Big Data Framework with 4 Core Components:
+
 | Component         | What It Does                                                                    |
 | ----------------- | ------------------------------------------------------------------------------- |
 | **HDFS**          | Distributed file system (splits files across cluster with redundancy)           |
