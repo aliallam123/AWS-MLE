@@ -1,15 +1,17 @@
-# 🧠 Exam-Focused Summary of PCA
+# 📊 PCA (Principal Component Analysis) — Exam Table
 
-| Topic                   | What to Know                                                             |
-| ----------------------- | ------------------------------------------------------------------------ |
-| **Type**                | **Unsupervised** — Dimensionality Reduction                              |
-| **Goal**                | Reduce high-dimensional data into fewer **principal components**         |
-| **Core Idea**           | Project data into a lower-dimensional space while retaining max variance |
-| **Input Format**        | `CSV` or `RecordIO-Protobuf`                                             |
-| **Input Mode**          | `File` or `Pipe`                                                         |
-| **Key Hyperparameters** | `algorithm_mode` (`regular` or `randomized`), `subtract_mean`            |
-| **Algorithm Detail**    | Uses **SVD (Singular Value Decomposition)** on the covariance matrix     |
-| **Modes**               | - `regular`: better for sparse/moderate datasets                         |
+| **Aspect**              | **What to Know**                                                            |
+| ----------------------- | --------------------------------------------------------------------------- |
+| **Type**                | Unsupervised — Dimensionality Reduction                                     |
+| **Goal**                | Reduce high-dimensional data into fewer components while retaining variance |
+| **Input Format**        | `CSV` or `RecordIO-Protobuf`                                                |
+| **Input Mode**          | `File` or `Pipe`                                                            |
+| **Core Algorithm**      | Uses **Singular Value Decomposition (SVD)** on the **covariance matrix**    |
+| **Main Use Case**       | Reduce features before training to avoid overfitting / improve performance  |
+| **Key Hyperparameters** | `algorithm_mode` (`regular` or `randomized`), `subtract_mean`               |
+| **Modes**               | `regular` → sparse/moderate data, `randomized` → large data                 |
+| **Output**              | Top-N **principal components** (no labels, just dimensions)                 |
+| **Instance Types**      | ✅ CPU or GPU supported (no fixed recommendation — try both)                 |
 
 
 # 🔥 What to Memorise for the Exam
