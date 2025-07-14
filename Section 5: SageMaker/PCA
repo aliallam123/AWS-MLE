@@ -11,7 +11,7 @@
 | **Key Hyperparameters** | `algorithm_mode` (`regular` or `randomized`), `subtract_mean`               |
 | **Modes**               | `regular` → sparse/moderate data, `randomized` → large data                 |
 | **Output**              | Top-N **principal components** (no labels, just dimensions)                 |
-| **Instance Types**      | ✅ CPU or GPU supported (no fixed recommendation — try both)                 |
+| **Instance Types**      | ✅ CPU or GPU supported (no fixed recommendation — try both)                |
 
 
 # 🔥 What to Memorise for the Exam
