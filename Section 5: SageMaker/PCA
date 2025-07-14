@@ -1,0 +1,30 @@
+# 🧠 Exam-Focused Summary of PCA
+
+| Topic                   | What to Know                                                             |
+| ----------------------- | ------------------------------------------------------------------------ |
+| **Type**                | **Unsupervised** — Dimensionality Reduction                              |
+| **Goal**                | Reduce high-dimensional data into fewer **principal components**         |
+| **Core Idea**           | Project data into a lower-dimensional space while retaining max variance |
+| **Input Format**        | `CSV` or `RecordIO-Protobuf`                                             |
+| **Input Mode**          | `File` or `Pipe`                                                         |
+| **Key Hyperparameters** | `algorithm_mode` (`regular` or `randomized`), `subtract_mean`            |
+| **Algorithm Detail**    | Uses **SVD (Singular Value Decomposition)** on the covariance matrix     |
+| **Modes**               | - `regular`: better for sparse/moderate datasets                         |
+
+
+# 🔥 What to Memorise for the Exam
+PCA is used for dimensionality reduction, not prediction
+
+It’s unsupervised, doesn’t require labels
+
+Returns components, not feature names
+
+SageMaker supports both regular and randomized modes
+
+Hyperparams to know: algorithm_mode, subtract_mean
+
+Can use GPU or CPU, depending on dataset size and sparsity
+
+# ✅ Exam Clue:
+
+If a question asks about reducing features or removing irrelevant dimensions, the answer is probably PCA.
