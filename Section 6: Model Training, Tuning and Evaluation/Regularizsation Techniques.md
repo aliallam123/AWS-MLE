@@ -18,6 +18,19 @@ Prevent **overfitting**: when model performs well on training data but poorly on
 - **Validation set**: Used to monitor performance during training.
 - **Test set**: Used to evaluate model after training is complete.
 
+  # 🧠 Story Summary: Regularization
+Imagine training a student (your neural network). If they memorise the textbook (training data), they ace practice tests but fail real exams — that’s overfitting.
+
+You want the student to generalise — so you:
+
+Simplify the material (simpler model),
+
+Randomly hide notes during study (dropout),
+
+Stop when their performance plateaus (early stopping).
+
+Regularization techniques are those tricks — they prevent overfitting and help your model perform better on unseen data (test/eval sets), not just training examples.
+
 ## 🧠 Tips
 
 - Dropout commonly used in CNNs (e.g. 50% rate).
