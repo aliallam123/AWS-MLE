@@ -14,4 +14,5 @@ Focus: How close predictions are to actual values
 
 # 💡 Tip:
 If the output is a number, use regression metrics.
+
 If the output is a class or label, use classification metrics.
