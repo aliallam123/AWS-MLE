@@ -1,0 +1,41 @@
+# SageMaker Model Monitor – Data Capture
+
+## 🧠 What Is Data Capture?
+
+- A feature of **SageMaker Model Monitor**.
+- Captures:
+  - **Input data** sent to inference endpoints.
+  - **Output predictions** returned by the model.
+- Stored as **JSON** in **Amazon S3**.
+
+## 🔄 Key Use Cases
+
+- **Debugging** and analysis of inference behavior.
+- **Monitoring** prediction stability over time.
+- **Retraining** models using real-world inference data.
+- **Detecting drift** by comparing to a baseline.
+
+## ⚙️ Features
+
+- Works with both:
+  - **Real-time inference**
+  - **Batch transform jobs**
+- Supported through:
+  - **SageMaker Python SDK**
+  - **Boto3 (Python)**
+- Supports **encryption** of logged data.
+- Data can trigger **alerts** when it deviates from a baseline.
+
+## ✅ Exam Essentials
+
+- Logs **both inputs and outputs** to inference endpoints.
+- Output format is **JSON**, stored in **S3**.
+- Can be used for **monitoring, retraining, or auditing**.
+- Fully supports **encryption** for data security.
+- Works in **real-time** and **batch** settings.
+
+## 🎯 Quick Tips
+
+- Mention of “capturing endpoint activity” → **Data Capture**.
+- Want to retrain from live traffic? → Use captured inference data.
+- JSON logs → S3 → secured + used in drift monitoring.
