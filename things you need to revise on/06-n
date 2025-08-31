@@ -1,0 +1,3 @@
+If it says SageMaker + % traffic split → Production variants.
+
+If it says CodeDeploy + step-by-step rollout → Canary.
